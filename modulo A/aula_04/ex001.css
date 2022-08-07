@@ -16,4 +16,5 @@ body{
 .cor:hover{
     background-color: coral;
     color: rgb(0, 0, 0);
+    cursor: pointer;
 }
