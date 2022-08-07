@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>aula006 - curso em video</title>
-    <link rel="stylesheet" href="ex002.css">
+    <link rel="stylesheet" href="ex003.css">
 </head>
 <body>
     <h1 class="cor">Olá mundo!</h1>
     <p class="cor">Anakin pika das galáxias</p>
     <script>
-        var nome = window.prompt('Qual é o seu nome?') //esse comando tem a mesma função do input (em python), mostra uma caixa de texto para o user interagir
-        window.alert('Você é foda ' + nome)
+        var n1 = Number.parseInt(window.prompt("Digite um número: "))
+        var n2 = Number.parseInt(window.prompt("Digite outro número: "))
+        var soma = n1 + n2
+        window.alert('O resultado deste calculo é: ' + soma)
     </script>
 </body>
 </html>
