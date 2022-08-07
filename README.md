@@ -1,2 +1,2 @@
 # curso_JS
-repositório voltado para o curso de Java Script do curso em vídeo
+repositório voltado para o curso de Java Script que estou fazendo no curso em vídeo
