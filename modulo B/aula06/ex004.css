@@ -2,3 +2,19 @@
     border: 0;
     margin: 0;
 }
+body{
+    font:normal 20pt Arial;
+    background-color: rgb(35, 170, 152);
+}
+p{
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    transition: all .5s;
+}
+p:hover{
+    color: rgba(255, 255, 255, 0.74);
+    background: rgb(36, 124, 206);
+    font-size: 200%;
+    transition: all .5s;
+}
