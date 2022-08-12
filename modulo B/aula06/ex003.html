@@ -11,10 +11,14 @@
     <h1 class="cor">Olá mundo!</h1>
     <p class="cor">Anakin pika das galáxias</p>
     <script>
-        var n1 = Number.parseInt(window.prompt("Digite um número: "))
-        var n2 = Number.parseInt(window.prompt("Digite outro número: "))
+        var n1 = Number(window.prompt("Digite um número: "))
+        var n2 = Number(window.prompt("Digite outro número: "))
         var soma = n1 + n2
-        window.alert('O resultado deste calculo é: ' + soma)
+        var nome = prompt("Digite seu nome:")
+        var idade = Number(prompt("Digite sua idade:"))
+        var nota = Number(prompt("Qual foi a sua nota?"))
+        window.alert('O resultado deste calculo é: ' + soma) //alert sem template string
+        alert(`O aluno ${nome} com ${idade} anos, tirou a nota ${nota}!!`) //alert com template string
     </script>
 </body>
 </html>
