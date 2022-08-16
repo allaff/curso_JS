@@ -20,6 +20,15 @@
         document.write(`<p>Olá ${nome.toUpperCase()} seu nome está todo em letras maiúsculas</p> <br>`)
         document.writeln(`<p>Olá ${nome.toLowerCase()}, seu nome está todo em minúsculas.</p>`)
         //Não esquecer de colocar no final "()", pois significa a chamada para os metódos.
+        var n1 = 1554.5
+        document.write(`<p>O seu número convertido para real fica assim: ${n1.toLocaleString('pt-BR',{style:'currency', currency:'BRL'})}</p>`)
+        document.write(`<p>O seu número convertido para dólar fica assim: ${n1.toLocaleString('pt-BR',{style:'currency', currency:'USD'})}</p>`)
+        document.write(`<p>O seu número convertido para euros fica assim: ${n1.toLocaleString('pt-BR',{style:'currency', currency:'EUR'})}</p>`)
+        /* Fora do Node não é necessário utilizar o comando .replace(), pois o próprio navegador já faz essa troca automaticamente.
+        Para você que não lembra o que este comando faz, é que ele basicamente troca uma coisa pela outra
+        Exemplo:
+        .replace('.', ',') 
+        isso significa que estou pedindo ao comando que substitua o '.'(ponto) pela ','(virgula) */
     </script>
 </body>
 </html>
